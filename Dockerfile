@@ -2,7 +2,7 @@
 # look at a Satellite server for content that is different from what
 # the host sees.
 
-FROM rhel
+FROM registry.access.redhat.com/rhel7/rhel
 
 ADD GreenLab-key.pem /
 ADD GreenLab.crt /
