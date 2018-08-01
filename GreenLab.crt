@@ -1,0 +1,148 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4620649215976393822 (0x401fd7fb0df5cc5e)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = North Carolina, L = Raleigh, O = Katello, OU = SomeOrgUnit, CN = satellite.atgreen.lab
+        Validity
+            Not Before: Jun 27 11:55:30 2018 GMT
+            Not After : Dec  1 13:00:00 2049 GMT
+        Subject: O = GreenLab
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ee:e7:e8:0b:4d:c4:70:e9:16:5a:e2:72:b5:47:
+                    83:d4:a5:71:df:68:6e:76:cf:a8:04:b2:d0:6b:e6:
+                    61:3b:37:81:11:c8:b0:5a:00:d1:b5:7a:2c:a2:6f:
+                    fb:04:b5:dc:8d:54:98:05:fd:84:cb:38:73:3a:b1:
+                    62:14:0f:c0:63:d3:1a:48:82:9a:50:5b:eb:b5:ea:
+                    48:84:9b:68:d7:b5:14:77:71:a3:3a:4f:ce:70:19:
+                    f3:14:c7:69:38:d0:f1:b6:2f:39:9e:98:28:1c:5c:
+                    26:b2:80:9d:12:19:9f:21:54:e0:90:0d:1a:ed:fc:
+                    5d:c9:8e:7f:27:c1:22:12:19:6e:21:9a:51:22:ab:
+                    84:60:9f:da:93:16:74:ba:31:48:62:2a:28:02:2a:
+                    cd:fb:4c:50:9e:25:bb:32:ea:ab:c0:5d:d4:ff:d9:
+                    a0:fe:a6:56:1a:76:03:a8:0c:69:08:f8:d0:8a:85:
+                    f2:1a:b1:2e:ed:2e:74:7d:a6:c4:1a:1f:90:79:d2:
+                    2f:21:cb:0e:2b:33:3b:22:70:5d:35:af:77:0d:14:
+                    22:e9:18:0a:70:78:83:6c:bb:72:2f:97:b2:5d:57:
+                    64:cd:7d:28:95:ab:bd:17:5f:28:d3:45:2f:7d:44:
+                    6b:48:2f:b0:21:b6:0f:ea:39:64:ce:49:f2:d6:d4:
+                    d4:07
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Netscape Cert Type: 
+                SSL Client, S/MIME
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment, Data Encipherment
+            X509v3 Authority Key Identifier: 
+                keyid:D4:F9:69:19:A6:E1:EA:5E:B8:DD:F0:41:5B:11:6E:CC:62:A1:A5:A3
+                DirName:/C=US/ST=North Carolina/L=Raleigh/O=Katello/OU=SomeOrgUnit/CN=satellite.atgreen.lab
+                serial:C0:01:BE:AF:66:C9:DD:3B
+
+            X509v3 Subject Key Identifier: 
+                53:97:BC:30:92:C1:D5:25:DB:79:FC:C0:D8:49:49:09:46:42:70:0F
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            1.3.6.1.4.1.2312.9.1.1530100530773.1: 
+                ..GreenLab_ueber_product
+            1.3.6.1.4.1.2312.9.1.1530100530773.3: 
+                ..
+            1.3.6.1.4.1.2312.9.1.1530100530773.2: 
+                ..
+            1.3.6.1.4.1.2312.9.1.1530100530773.5: 
+                ..
+            1.3.6.1.4.1.2312.9.2.1530100530774.1: 
+                ..yum
+            1.3.6.1.4.1.2312.9.2.1530100530774.1.1: 
+                .ueber_content
+            1.3.6.1.4.1.2312.9.2.1530100530774.1.2: 
+                ..1530100530773_ueber_content
+            1.3.6.1.4.1.2312.9.2.1530100530774.1.5: 
+                ..Custom
+            1.3.6.1.4.1.2312.9.2.1530100530774.1.6: 
+                ../GreenLab
+            1.3.6.1.4.1.2312.9.2.1530100530774.1.7: 
+                ..
+            1.3.6.1.4.1.2312.9.2.1530100530774.1.8: 
+                ..1
+            1.3.6.1.4.1.2312.9.4.1: 
+                ..GreenLab_ueber_product
+            1.3.6.1.4.1.2312.9.4.2: 
+                ..
+            1.3.6.1.4.1.2312.9.4.3: 
+                .1530100530773
+            1.3.6.1.4.1.2312.9.4.5: 
+                ..1
+            1.3.6.1.4.1.2312.9.4.6: 
+                ..2018-06-27T11:55:30Z
+            1.3.6.1.4.1.2312.9.4.7: 
+                ..2049-12-01T13:00:00Z
+            1.3.6.1.4.1.2312.9.4.12: 
+                ..0
+            1.3.6.1.4.1.2312.9.4.10: 
+                ..
+            1.3.6.1.4.1.2312.9.4.13: 
+                ..
+            1.3.6.1.4.1.2312.9.4.14: 
+                ..0
+            1.3.6.1.4.1.2312.9.4.11: 
+                ..1
+            1.3.6.1.4.1.2312.9.5.1: 
+                .$4ebce2ce-7489-430e-8a66-995d2e6e1be2
+    Signature Algorithm: sha256WithRSAEncryption
+         1b:7a:58:b0:00:2f:11:52:de:b6:9d:8e:c3:51:f9:a9:ae:4b:
+         7e:ce:be:d5:fb:06:cc:95:86:f8:62:80:20:95:9c:4c:ba:28:
+         83:74:78:26:3c:12:6a:4f:87:4b:1d:ea:c5:a2:a8:e4:b3:00:
+         98:38:be:96:d4:32:b4:ee:59:d5:af:5c:ff:e4:d2:1a:01:d7:
+         ad:b0:e2:03:95:e1:29:60:f9:75:de:b3:dd:02:f5:c2:df:9f:
+         8c:2a:ca:bd:74:61:d8:e1:d3:91:64:8e:b5:a2:cd:a7:79:41:
+         47:5c:a6:ea:43:fe:d4:ba:6a:e4:3e:0f:56:42:2f:89:4d:09:
+         5b:7e:a1:66:fa:1a:7c:a4:47:3a:de:47:19:46:0d:05:6f:fa:
+         d6:0b:ef:c3:59:3c:30:a4:14:8a:28:75:fc:a4:5e:3e:5b:62:
+         60:41:c1:25:80:13:c9:36:6e:74:68:69:99:05:4b:27:51:df:
+         57:c9:3a:7b:72:e6:84:72:ef:45:54:85:3c:84:22:ee:26:84:
+         93:46:a5:73:ba:cb:aa:bc:d2:a0:91:23:f4:e2:e1:46:d7:17:
+         a4:94:85:e2:22:78:44:5f:c1:01:45:49:e4:a0:48:36:88:e8:
+         eb:da:dd:b7:76:8a:f6:3d:ac:91:ff:ec:40:cd:5f:ba:47:84:
+         f7:b9:dd:ca
+-----BEGIN CERTIFICATE-----
+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
+69rdt3aK9j2skf/sQM1fukeE97ndyg==
+-----END CERTIFICATE-----
