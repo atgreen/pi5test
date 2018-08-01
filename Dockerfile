@@ -4,6 +4,8 @@
 
 FROM registry.access.redhat.com/jboss-webserver-3/webserver31-tomcat8-openshift
 
+USER 0
+
 ADD GreenLab-key.pem /
 ADD GreenLab.crt /
 ADD greenlab.repo /etc/yum.repos.d/
@@ -16,3 +18,5 @@ RUN rm /etc/rhsm-host
 # YUM update
 
 RUN yum -y update
+
+USER 1000
