@@ -2,7 +2,7 @@
 # look at a Satellite server for content that is different from what
 # the host sees.
 
-FROM registry.access.redhat.com/rhel7/rhel
+FROM registry.access.redhat.com/jboss-webserver-3/webserver31-tomcat8-openshift
 
 ADD GreenLab-key.pem /
 ADD GreenLab.crt /
